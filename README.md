@@ -1,4 +1,4 @@
-# EC2 with bucket access
+# Terraform - EC2 with bucket access
 
 When experimenting with new cloud tech, a common use case is that you want a compute instance to store some of its data inside a bucket. That way, you can re-use this data easily when you use or build another instance. At the same time, you don't want the EC2 instance to be able to access other buckets, and you don't want all other instances to access the data bucket. 
 
